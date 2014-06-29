@@ -46,7 +46,7 @@ else
 		}
 	?>
 
-	<form method="POST" action="/contacts/">  
+	<form method="POST" action="<?php echo $sPath ?>">  
 		<div>
 			<div><input type="text" value="<?php echo $sName ?>" name="name" placeholder="*Ваше имя"/></div>
 			<div><input type="text" value="<?php echo $sEmail ?>" name="email" placeholder="*Ваш e-mail"></div>
